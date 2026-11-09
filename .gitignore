@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+*/node_modules/
+
+# Java & Maven Builds
+target/
+backend/target/
+*.class
+*.jar
+*.war
+
+# Frontend Builds
+dist/
+frontend/dist/
+
+# Large Binaries
+cloudflared.exe
+*.exe
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# OS & IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
